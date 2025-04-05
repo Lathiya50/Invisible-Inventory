@@ -63,10 +63,4 @@ The system prevents overselling through:
 3. Managing reservation lifecycle with clear state transitions
 4. Automatic cleanup of expired reservations
 
-## Running the System
-To run the system:
-1. Ensure MongoDB is installed and running
-2. Start the application server
-3. The reservation cleanup job will automatically process expired reservations
-
 The solution handles high concurrency workloads while maintaining inventory accuracy and preventing "ghost inventory" issues.
